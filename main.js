@@ -210,3 +210,72 @@
 //     }
 //     return counter>=1&&counter<=3?true:false
 //   }
+
+// lastDigit 29
+
+// function lastDigit(a, b, c){
+//     let strA = a.toString();
+//    let strB = b.toString();
+//    if (strA.charAt(strA.length - 1) == strB.charAt(strB.length - 1))
+//      return true;
+//    else
+//      return false;
+ 
+//  }   
+
+// endUp 30
+// function endUp(str){
+//     if(str.length<3)
+//       return str.toUpperCase()
+//      let up = str.substring(str.length-3, str.length).toUpperCase()
+//      str = str.substring(0, str.length-3)
+//     return str+up
+// }
+
+// everyNth 31
+// function everyNth(str, n){
+//     let temp = "";
+//     for(let i = 0; i < str.length; i +n){
+//       temp+=str.charAt(i);
+//     }
+//     return temp
+//   }
+
+// WARM UP 2 ***************************
+
+// stringTimes 32
+// function stringTimes(str, n){
+//     let temp = "";
+//     for(let i = 0; i<n; i++){
+//       temp+=str;
+//     }
+//     return temp
+//   }
+
+
+// frontTimes 33
+
+// let len = str.length;
+// let temp = "";
+// if (len < 4) {
+//   for (let i = 0; i < n; i++) {
+//     temp += str;
+//   }
+// } else {
+//     for (let j = 0; j < n; j++) {
+//       temp += str.substring(0,3);
+//     }
+// }
+// return temp;
+
+// countXX 34
+
+// function countXX(str){
+//     let count = 0;
+//    let xx = "xx";
+//    for (let i = 0; i < str.length-1; i++) {
+//      if (str.substring(i, i+2) === xx)
+//        count++;
+//    }
+//    return count;
+//  }
